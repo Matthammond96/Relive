@@ -43,5 +43,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>Relive would like to use your location to make finding near by caches easier and quickier</string>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <!--Include to allow all connections (DANGER)-->
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
 </dict>
+
 </plist>

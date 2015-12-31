@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19AE26C2B9CEB9DC99635792 /* Pods_Relive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5813EA2A91DA2DC9F2E70EDA /* Pods_Relive.framework */; };
+		C91281761C11E5020032D067 /* sideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91281751C11E5020032D067 /* sideMenuViewController.swift */; };
+		C91281781C11E6DD0032D067 /* postMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91281771C11E6DD0032D067 /* postMemoryViewController.swift */; };
+		C91BE9C01C34496B00C91AEB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C91BE9BF1C34496B00C91AEB /* Default-568h@2x.png */; };
+		C91BE9C21C355EDA00C91AEB /* memoryViewierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BE9C11C355EDA00C91AEB /* memoryViewierViewController.swift */; };
+		C93F53521C1734F000666221 /* appMetaDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F53511C1734F000666221 /* appMetaDataClass.swift */; };
+		C93F53541C1797D500666221 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F53531C1797D500666221 /* settingsViewController.swift */; };
 		C97FFE4E1C10A7C900975672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE4D1C10A7C900975672 /* AppDelegate.swift */; };
-		C97FFE501C10A7C900975672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE4F1C10A7C900975672 /* ViewController.swift */; };
+		C97FFE501C10A7C900975672 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE4F1C10A7C900975672 /* menuViewController.swift */; };
 		C97FFE531C10A7C900975672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97FFE511C10A7C900975672 /* Main.storyboard */; };
 		C97FFE551C10A7C900975672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97FFE541C10A7C900975672 /* Assets.xcassets */; };
 		C97FFE581C10A7C900975672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97FFE561C10A7C900975672 /* LaunchScreen.storyboard */; };
 		C97FFE631C10A7C900975672 /* ReliveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE621C10A7C900975672 /* ReliveTests.swift */; };
 		C97FFE6E1C10A7C900975672 /* ReliveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE6D1C10A7C900975672 /* ReliveUITests.swift */; };
+		C97FFE7C1C10A7D700975672 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97FFE7B1C10A7D700975672 /* MapKit.framework */; };
+		C97FFE7F1C10A8B100975672 /* findCacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE7E1C10A8B100975672 /* findCacheViewController.swift */; };
+		C97FFE851C10C58900975672 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE841C10C58900975672 /* SWRevealViewController.m */; };
+		C97FFE8B1C10E3E200975672 /* JSONDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE8A1C10E3E200975672 /* JSONDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29E101CD818841B21BBDDF78 /* Pods-Relive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Relive/Pods-Relive.debug.xcconfig"; sourceTree = "<group>"; };
+		5813EA2A91DA2DC9F2E70EDA /* Pods_Relive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Relive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A364CDD6266ABFDE43B8AF5E /* Pods-Relive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Relive.release.xcconfig"; path = "Pods/Target Support Files/Pods-Relive/Pods-Relive.release.xcconfig"; sourceTree = "<group>"; };
+		C91281751C11E5020032D067 /* sideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideMenuViewController.swift; sourceTree = "<group>"; };
+		C91281771C11E6DD0032D067 /* postMemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postMemoryViewController.swift; sourceTree = "<group>"; };
+		C91BE9BF1C34496B00C91AEB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C91BE9C11C355EDA00C91AEB /* memoryViewierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memoryViewierViewController.swift; sourceTree = "<group>"; };
+		C93F53511C1734F000666221 /* appMetaDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = appMetaDataClass.swift; path = "Class Extensions/Class Extensions/appMetaDataClass.swift"; sourceTree = "<group>"; };
+		C93F53531C1797D500666221 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		C97FFE4A1C10A7C900975672 /* Relive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97FFE4D1C10A7C900975672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C97FFE4F1C10A7C900975672 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C97FFE4F1C10A7C900975672 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		C97FFE521C10A7C900975672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C97FFE541C10A7C900975672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C97FFE571C10A7C900975672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,12 @@
 		C97FFE691C10A7C900975672 /* ReliveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReliveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97FFE6D1C10A7C900975672 /* ReliveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReliveUITests.swift; sourceTree = "<group>"; };
 		C97FFE6F1C10A7C900975672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97FFE7B1C10A7D700975672 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C97FFE7E1C10A8B100975672 /* findCacheViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = findCacheViewController.swift; path = ViewControllers/findCacheViewController.swift; sourceTree = "<group>"; };
+		C97FFE821C10C58900975672 /* Relive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Relive-Bridging-Header.h"; sourceTree = "<group>"; };
+		C97FFE831C10C58900975672 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		C97FFE841C10C58900975672 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		C97FFE8A1C10E3E200975672 /* JSONDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONDataClass.swift; path = "Class Extensions/Class Extensions/JSONDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C97FFE7C1C10A7D700975672 /* MapKit.framework in Frameworks */,
+				19AE26C2B9CEB9DC99635792 /* Pods_Relive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +102,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22A584A01935D7A60BD78E4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97FFE7B1C10A7D700975672 /* MapKit.framework */,
+				5813EA2A91DA2DC9F2E70EDA /* Pods_Relive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65D34B07B3561C264B19715A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E101CD818841B21BBDDF78 /* Pods-Relive.debug.xcconfig */,
+				A364CDD6266ABFDE43B8AF5E /* Pods-Relive.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C97FFE411C10A7C900975672 = {
 			isa = PBXGroup;
 			children = (
+				C91BE9BF1C34496B00C91AEB /* Default-568h@2x.png */,
 				C97FFE4C1C10A7C900975672 /* Relive */,
 				C97FFE611C10A7C900975672 /* ReliveTests */,
 				C97FFE6C1C10A7C900975672 /* ReliveUITests */,
 				C97FFE4B1C10A7C900975672 /* Products */,
+				65D34B07B3561C264B19715A /* Pods */,
+				22A584A01935D7A60BD78E4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +147,9 @@
 			isa = PBXGroup;
 			children = (
 				C97FFE4D1C10A7C900975672 /* AppDelegate.swift */,
-				C97FFE4F1C10A7C900975672 /* ViewController.swift */,
+				C97FFE861C10C59400975672 /* SWRevealViewController */,
+				C97FFE891C10DA4200975672 /* Class Extensions */,
+				C97FFE7D1C10A84D00975672 /* ViewControllers */,
 				C97FFE511C10A7C900975672 /* Main.storyboard */,
 				C97FFE541C10A7C900975672 /* Assets.xcassets */,
 				C97FFE561C10A7C900975672 /* LaunchScreen.storyboard */,
@@ -125,6 +176,38 @@
 			path = ReliveUITests;
 			sourceTree = "<group>";
 		};
+		C97FFE7D1C10A84D00975672 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C97FFE4F1C10A7C900975672 /* menuViewController.swift */,
+				C97FFE7E1C10A8B100975672 /* findCacheViewController.swift */,
+				C91281751C11E5020032D067 /* sideMenuViewController.swift */,
+				C91BE9C11C355EDA00C91AEB /* memoryViewierViewController.swift */,
+				C93F53531C1797D500666221 /* settingsViewController.swift */,
+				C91281771C11E6DD0032D067 /* postMemoryViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C97FFE861C10C59400975672 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C97FFE831C10C58900975672 /* SWRevealViewController.h */,
+				C97FFE841C10C58900975672 /* SWRevealViewController.m */,
+				C97FFE821C10C58900975672 /* Relive-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		C97FFE891C10DA4200975672 /* Class Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C97FFE8A1C10E3E200975672 /* JSONDataClass.swift */,
+				C93F53511C1734F000666221 /* appMetaDataClass.swift */,
+			);
+			name = "Class Extensions";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C97FFE721C10A7C900975672 /* Build configuration list for PBXNativeTarget "Relive" */;
 			buildPhases = (
+				2A5537FA9F2E7B7660EA90A2 /* Check Pods Manifest.lock */,
 				C97FFE461C10A7C900975672 /* Sources */,
 				C97FFE471C10A7C900975672 /* Frameworks */,
 				C97FFE481C10A7C900975672 /* Resources */,
+				9D48A1AC58A55D3D3A13195E /* Embed Pods Frameworks */,
+				A44F92BA59700A0DD0DED673 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C97FFE581C10A7C900975672 /* LaunchScreen.storyboard in Resources */,
+				C91BE9C01C34496B00C91AEB /* Default-568h@2x.png in Resources */,
 				C97FFE551C10A7C900975672 /* Assets.xcassets in Resources */,
 				C97FFE531C10A7C900975672 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +341,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A5537FA9F2E7B7660EA90A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D48A1AC58A55D3D3A13195E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relive/Pods-Relive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44F92BA59700A0DD0DED673 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Relive/Pods-Relive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C97FFE461C10A7C900975672 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97FFE501C10A7C900975672 /* ViewController.swift in Sources */,
+				C97FFE501C10A7C900975672 /* menuViewController.swift in Sources */,
 				C97FFE4E1C10A7C900975672 /* AppDelegate.swift in Sources */,
+				C93F53541C1797D500666221 /* settingsViewController.swift in Sources */,
+				C91281761C11E5020032D067 /* sideMenuViewController.swift in Sources */,
+				C97FFE7F1C10A8B100975672 /* findCacheViewController.swift in Sources */,
+				C97FFE8B1C10E3E200975672 /* JSONDataClass.swift in Sources */,
+				C97FFE851C10C58900975672 /* SWRevealViewController.m in Sources */,
+				C91BE9C21C355EDA00C91AEB /* memoryViewierViewController.swift in Sources */,
+				C93F53521C1734F000666221 /* appMetaDataClass.swift in Sources */,
+				C91281781C11E6DD0032D067 /* postMemoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,23 +543,30 @@
 		};
 		C97FFE731C10A7C900975672 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E101CD818841B21BBDDF78 /* Pods-Relive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Relive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthammond.Relive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Relive/Relive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C97FFE741C10A7C900975672 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A364CDD6266ABFDE43B8AF5E /* Pods-Relive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Relive/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthammond.Relive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Relive/Relive-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -487,6 +637,7 @@
 				C97FFE741C10A7C900975672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C97FFE751C10A7C900975672 /* Build configuration list for PBXNativeTarget "ReliveTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +646,7 @@
 				C97FFE771C10A7C900975672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C97FFE781C10A7C900975672 /* Build configuration list for PBXNativeTarget "ReliveUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +655,7 @@
 				C97FFE7A1C10A7C900975672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
