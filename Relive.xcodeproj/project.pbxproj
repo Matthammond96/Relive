@@ -12,8 +12,12 @@
 		C91281781C11E6DD0032D067 /* postMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91281771C11E6DD0032D067 /* postMemoryViewController.swift */; };
 		C91BE9C01C34496B00C91AEB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C91BE9BF1C34496B00C91AEB /* Default-568h@2x.png */; };
 		C91BE9C21C355EDA00C91AEB /* memoryViewierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BE9C11C355EDA00C91AEB /* memoryViewierViewController.swift */; };
+		C91BE9C41C35B81D00C91AEB /* yourMemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91BE9C31C35B81D00C91AEB /* yourMemoriesViewController.swift */; };
 		C93F53521C1734F000666221 /* appMetaDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F53511C1734F000666221 /* appMetaDataClass.swift */; };
 		C93F53541C1797D500666221 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93F53531C1797D500666221 /* settingsViewController.swift */; };
+		C9425F411C43D4450016B84D /* collectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9425F401C43D4450016B84D /* collectionView.swift */; };
+		C9425F431C43D5E70016B84D /* collectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9425F421C43D5E70016B84D /* collectionViewCell.swift */; };
+		C96420FF1C3D81C50058E46A /* yourMemoriesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96420FE1C3D81C50058E46A /* yourMemoriesCollectionViewController.swift */; };
 		C97FFE4E1C10A7C900975672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE4D1C10A7C900975672 /* AppDelegate.swift */; };
 		C97FFE501C10A7C900975672 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE4F1C10A7C900975672 /* menuViewController.swift */; };
 		C97FFE531C10A7C900975672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97FFE511C10A7C900975672 /* Main.storyboard */; };
@@ -25,6 +29,8 @@
 		C97FFE7F1C10A8B100975672 /* findCacheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE7E1C10A8B100975672 /* findCacheViewController.swift */; };
 		C97FFE851C10C58900975672 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE841C10C58900975672 /* SWRevealViewController.m */; };
 		C97FFE8B1C10E3E200975672 /* JSONDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97FFE8A1C10E3E200975672 /* JSONDataClass.swift */; };
+		C98ACFA31C36C27800EBA51A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98ACFA21C36C27800EBA51A /* Extensions.swift */; };
+		C9EBD3E51C49235800B8BA3E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EBD3E41C49235800B8BA3E /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +58,12 @@
 		C91281771C11E6DD0032D067 /* postMemoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postMemoryViewController.swift; sourceTree = "<group>"; };
 		C91BE9BF1C34496B00C91AEB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C91BE9C11C355EDA00C91AEB /* memoryViewierViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = memoryViewierViewController.swift; sourceTree = "<group>"; };
+		C91BE9C31C35B81D00C91AEB /* yourMemoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = yourMemoriesViewController.swift; path = ViewControllers/yourMemoriesViewController.swift; sourceTree = "<group>"; };
 		C93F53511C1734F000666221 /* appMetaDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = appMetaDataClass.swift; path = "Class Extensions/Class Extensions/appMetaDataClass.swift"; sourceTree = "<group>"; };
 		C93F53531C1797D500666221 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		C9425F401C43D4450016B84D /* collectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionView.swift; sourceTree = "<group>"; };
+		C9425F421C43D5E70016B84D /* collectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionViewCell.swift; sourceTree = "<group>"; };
+		C96420FE1C3D81C50058E46A /* yourMemoriesCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yourMemoriesCollectionViewController.swift; sourceTree = "<group>"; };
 		C97FFE4A1C10A7C900975672 /* Relive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C97FFE4D1C10A7C900975672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C97FFE4F1C10A7C900975672 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +83,9 @@
 		C97FFE831C10C58900975672 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = SWRevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
 		C97FFE841C10C58900975672 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = SWRevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		C97FFE8A1C10E3E200975672 /* JSONDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONDataClass.swift; path = "Class Extensions/Class Extensions/JSONDataClass.swift"; sourceTree = "<group>"; };
+		C98ACFA21C36C27800EBA51A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "Class Extensions/Class Extensions/Extensions.swift"; sourceTree = "<group>"; };
+		C9CBCA521C47555D00A4EF9C /* bournemouthRegionSimulator.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = bournemouthRegionSimulator.gpx; sourceTree = "<group>"; };
+		C9EBD3E41C49235800B8BA3E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +164,7 @@
 				C97FFE891C10DA4200975672 /* Class Extensions */,
 				C97FFE7D1C10A84D00975672 /* ViewControllers */,
 				C97FFE511C10A7C900975672 /* Main.storyboard */,
+				C9EBD3E41C49235800B8BA3E /* User.swift */,
 				C97FFE541C10A7C900975672 /* Assets.xcassets */,
 				C97FFE561C10A7C900975672 /* LaunchScreen.storyboard */,
 				C97FFE591C10A7C900975672 /* Info.plist */,
@@ -181,9 +195,13 @@
 			children = (
 				C97FFE4F1C10A7C900975672 /* menuViewController.swift */,
 				C97FFE7E1C10A8B100975672 /* findCacheViewController.swift */,
+				C91BE9C31C35B81D00C91AEB /* yourMemoriesViewController.swift */,
 				C91281751C11E5020032D067 /* sideMenuViewController.swift */,
 				C91BE9C11C355EDA00C91AEB /* memoryViewierViewController.swift */,
+				C96420FE1C3D81C50058E46A /* yourMemoriesCollectionViewController.swift */,
 				C93F53531C1797D500666221 /* settingsViewController.swift */,
+				C9425F401C43D4450016B84D /* collectionView.swift */,
+				C9425F421C43D5E70016B84D /* collectionViewCell.swift */,
 				C91281771C11E6DD0032D067 /* postMemoryViewController.swift */,
 			);
 			name = ViewControllers;
@@ -203,7 +221,9 @@
 			isa = PBXGroup;
 			children = (
 				C97FFE8A1C10E3E200975672 /* JSONDataClass.swift */,
+				C9CBCA521C47555D00A4EF9C /* bournemouthRegionSimulator.gpx */,
 				C93F53511C1734F000666221 /* appMetaDataClass.swift */,
+				C98ACFA21C36C27800EBA51A /* Extensions.swift */,
 			);
 			name = "Class Extensions";
 			sourceTree = "<group>";
@@ -397,12 +417,18 @@
 				C97FFE501C10A7C900975672 /* menuViewController.swift in Sources */,
 				C97FFE4E1C10A7C900975672 /* AppDelegate.swift in Sources */,
 				C93F53541C1797D500666221 /* settingsViewController.swift in Sources */,
+				C96420FF1C3D81C50058E46A /* yourMemoriesCollectionViewController.swift in Sources */,
+				C9EBD3E51C49235800B8BA3E /* User.swift in Sources */,
+				C91BE9C41C35B81D00C91AEB /* yourMemoriesViewController.swift in Sources */,
 				C91281761C11E5020032D067 /* sideMenuViewController.swift in Sources */,
 				C97FFE7F1C10A8B100975672 /* findCacheViewController.swift in Sources */,
 				C97FFE8B1C10E3E200975672 /* JSONDataClass.swift in Sources */,
+				C98ACFA31C36C27800EBA51A /* Extensions.swift in Sources */,
+				C9425F411C43D4450016B84D /* collectionView.swift in Sources */,
 				C97FFE851C10C58900975672 /* SWRevealViewController.m in Sources */,
 				C91BE9C21C355EDA00C91AEB /* memoryViewierViewController.swift in Sources */,
 				C93F53521C1734F000666221 /* appMetaDataClass.swift in Sources */,
+				C9425F431C43D5E70016B84D /* collectionViewCell.swift in Sources */,
 				C91281781C11E6DD0032D067 /* postMemoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

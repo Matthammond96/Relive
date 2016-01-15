@@ -1,60 +1,80 @@
 [
     {
+        "id": "1",
         "user": "Greg Chapman",
         "title": "Stag Do 2015",
         "description": "Stag Do 2015, we decieded to go to Bournemouth and have one last big lads night out and go out in style, and thats is what we did. We booked the HighCliff Hotel which was increable and provided a great hangover cure with the full english breakfast. We stayed for 2 nights one travel day on the Friday, and on Saturday the big day. We started of the big day by watching football and drinking in the hotel bar, from there we went to prezzos for a amazing 'last supper'. From there we hit up Whetherspoons and ordered way to many beers, but it's the Stag do so no one cared. We then stagered to halo where we spent most of the night until 3am. HALO WAS AMAZING! After that the night got increably blurry and woke up in my room the next day. However the whole trip was one to remember!",
         "type": "Stag",
         "emotion": "U+1F600, U+1F60E, U+1F60E, U+1F600",
         "friends": "",
-        "longitude": "",
-        "latitude": "",
-        "media1": "",
-        "media2": "",
-        "media3": "",
-        "media4": "",
-        "media5": ""
+        "latitude": "50.716098",
+        "longitude": "-1.875780",
+        "media": {
+            "m1": "http://i.telegraph.co.uk/multimedia/archive/03235/potd-husky_3235255k.jpg",
+            "m2": "http://www.picturesofengland.com/data1/images/1015642.jpg",
+            "m3": "http://i2.cdn.turner.com/cnnnext/dam/assets/140911111141-photo-realism-sam-silva-ocelot-horizontal-large-gallery.jpg",
+            "m4": "http://ichef.bbci.co.uk/news/976/media/images/83351000/jpg/_83351965_explorer273lincolnshirewoldssouthpicturebynicholassilkstone.jpg",
+            "m5": "http://media1.s-nbcnews.com/j/newscms/2015_17/992926/ss-150424-twip-08_2b40ec217049068c06aa3a3f2c59c7c3.nbcnews-fp-1200-800.jpg"
+        }
     },
     {
-        "user": "Greg Chapman",
-        "title": "Stag Do 2015",
-        "description": "Stag Do 2015, we decieded to go to Bournemouth and have one last big lads night out and go out in style, and thats is what we did. We booked the HighCliff Hotel which was increable and provided a great hangover cure with the full english breakfast. We stayed for 2 nights one travel day on the Friday, and on Saturday the big day. We started of the big day by watching football and drinking in the hotel bar, from there we went to prezzos for a amazing 'last supper'. From there we hit up Whetherspoons and ordered way to many beers, but it's the Stag do so no one cared. We then stagered to halo where we spent most of the night until 3am. HALO WAS AMAZING! After that the night got increably blurry and woke up in my room the next day. However the whole trip was one to remember!",
-        "type": "Stag",
-        "emotion": "U+1F600, U+1F60E, U+1F60E, U+1F600",
-        "friends": "",
-        "longitude": "",
-        "latitude": "",
-        "media1": "",
-        "media2": "",
-        "media3": "",
-        "media4": "",
-        "media5": ""
-    },{
-        "user": "Greg Chapman",
-        "title": "Stag Do 2015",
-        "description": "Stag Do 2015, we decieded to go to Bournemouth and have one last big lads night out and go out in style, and thats is what we did. We booked the HighCliff Hotel which was increable and provided a great hangover cure with the full english breakfast. We stayed for 2 nights one travel day on the Friday, and on Saturday the big day. We started of the big day by watching football and drinking in the hotel bar, from there we went to prezzos for a amazing 'last supper'. From there we hit up Whetherspoons and ordered way to many beers, but it's the Stag do so no one cared. We then stagered to halo where we spent most of the night until 3am. HALO WAS AMAZING! After that the night got increably blurry and woke up in my room the next day. However the whole trip was one to remember!",
-        "type": "Stag",
-        "emotion": "U+1F600, U+1F60E, U+1F60E, U+1F600",
-        "friends": "",
-        "longitude": "",
-        "latitude": "",
-        "media1": "",
-        "media2": "",
-        "media3": "",
-        "media4": "",
-        "media5": ""
-    },{
-        "user": "Greg Chapman",
-        "title": "Stag Do 2015",
-        "description": "Stag Do 2015, we decieded to go to Bournemouth and have one last big lads night out and go out in style, and thats is what we did. We booked the HighCliff Hotel which was increable and provided a great hangover cure with the full english breakfast. We stayed for 2 nights one travel day on the Friday, and on Saturday the big day. We started of the big day by watching football and drinking in the hotel bar, from there we went to prezzos for a amazing 'last supper'. From there we hit up Whetherspoons and ordered way to many beers, but it's the Stag do so no one cared. We then stagered to halo where we spent most of the night until 3am. HALO WAS AMAZING! After that the night got increably blurry and woke up in my room the next day. However the whole trip was one to remember!",
-        "type": "Stag",
-        "emotion": "U+1F600, U+1F60E, U+1F60E, U+1F600",
-        "friends": "",
-        "longitude": "",
-        "latitude": "",
-        "media1": "",
-        "media2": "",
-        "media3": "",
-        "media4": "",
-        "media5": ""
+        "id": "2",
+        "content": {
+            "user": "Greg Chapman",
+            "title": "Stag Do 2015",
+            "description": "Stag Do 2015, we decieded to go to Bournemouth and have one last big lads night out and go out in style, and thats is what we did. We booked the HighCliff Hotel which was increable and provided a great hangover cure with the full english breakfast. We stayed for 2 nights one travel day on the Friday, and on Saturday the big day. We started of the big day by watching football and drinking in the hotel bar, from there we went to prezzos for a amazing 'last supper'. From there we hit up Whetherspoons and ordered way to many beers, but it's the Stag do so no one cared. We then stagered to halo where we spent most of the night until 3am. HALO WAS AMAZING! After that the night got increably blurry and woke up in my room the next day. However the whole trip was one to remember!",
+            "type": "Wedding",
+            "emotion": "U+1F600, U+1F60E, U+1F60E, U+1F600",
+            "friends": "",
+            "latitude": "50.716098",
+            "longitude": "-1.843552",
+            "media": {
+                "m1": "http://i.telegraph.co.uk/multimedia/archive/03235/potd-husky_3235255k.jpg",
+                "m2": "http://www.picturesofengland.com/data1/images/1015642.jpg",
+                "m3": "http://i2.cdn.turner.com/cnnnext/dam/assets/140911111141-photo-realism-sam-silva-ocelot-horizontal-large-gallery.jpg",
+                "m4": "http://ichef.bbci.co.uk/news/976/media/images/83351000/jpg/_83351965_explorer273lincolnshirewoldssouthpicturebynicholassilkstone.jpg",
+                "m5": "http://media1.s-nbcnews.com/j/newscms/2015_17/992926/ss-150424-twip-08_2b40ec217049068c06aa3a3f2c59c7c3.nbcnews-fp-1200-800.jpg"
+            }
+        }
+    },
+    {
+        "id": "3",
+        "content": {
+            "user": "Greg Chapman",
+            "title": "Stag Do 2015",
+            "description": "Stag Do 2015, we decieded to go to Bournemouth and have one last big lads night out and go out in style, and thats is what we did. We booked the HighCliff Hotel which was increable and provided a great hangover cure with the full english breakfast. We stayed for 2 nights one travel day on the Friday, and on Saturday the big day. We started of the big day by watching football and drinking in the hotel bar, from there we went to prezzos for a amazing 'last supper'. From there we hit up Whetherspoons and ordered way to many beers, but it's the Stag do so no one cared. We then stagered to halo where we spent most of the night until 3am. HALO WAS AMAZING! After that the night got increably blurry and woke up in my room the next day. However the whole trip was one to remember!",
+            "type": "Holiday",
+            "emotion": "U+1F600, U+1F60E, U+1F60E, U+1F600",
+            "friends": "",
+            "latitude": "51.510127",
+            "longitude": "-0.134576",
+            "media": {
+                "m1": "http://i.telegraph.co.uk/multimedia/archive/03235/potd-husky_3235255k.jpg",
+                "m2": "http://www.picturesofengland.com/data1/images/1015642.jpg",
+                "m3": "http://i2.cdn.turner.com/cnnnext/dam/assets/140911111141-photo-realism-sam-silva-ocelot-horizontal-large-gallery.jpg",
+                "m4": "http://ichef.bbci.co.uk/news/976/media/images/83351000/jpg/_83351965_explorer273lincolnshirewoldssouthpicturebynicholassilkstone.jpg",
+                "m5": "http://media1.s-nbcnews.com/j/newscms/2015_17/992926/ss-150424-twip-08_2b40ec217049068c06aa3a3f2c59c7c3.nbcnews-fp-1200-800.jpg"
+            }
+        }
+    },
+    {
+        "id": "4",
+        "content": {
+            "user": "Greg Chapman",
+            "title": "Stag Do 2015",
+            "description": "Stag Do 2015, we decieded to go to Bournemouth and have one last big lads night out and go out in style, and thats is what we did. We booked the HighCliff Hotel which was increable and provided a great hangover cure with the full english breakfast. We stayed for 2 nights one travel day on the Friday, and on Saturday the big day. We started of the big day by watching football and drinking in the hotel bar, from there we went to prezzos for a amazing 'last supper'. From there we hit up Whetherspoons and ordered way to many beers, but it's the Stag do so no one cared. We then stagered to halo where we spent most of the night until 3am. HALO WAS AMAZING! After that the night got increably blurry and woke up in my room the next day. However the whole trip was one to remember!",
+            "type": "Other",
+            "emotion": "U+1F600, U+1F60E, U+1F60E, U+1F600",
+            "friends": "",
+            "longitude": "54.510127",
+            "latitude": "-0.134576",
+            "media": {
+                "m1": "http://i.telegraph.co.uk/multimedia/archive/03235/potd-husky_3235255k.jpg",
+                "m2": "http://www.picturesofengland.com/data1/images/1015642.jpg",
+                "m3": "http://i2.cdn.turner.com/cnnnext/dam/assets/140911111141-photo-realism-sam-silva-ocelot-horizontal-large-gallery.jpg",
+                "m4": "http://ichef.bbci.co.uk/news/976/media/images/83351000/jpg/_83351965_explorer273lincolnshirewoldssouthpicturebynicholassilkstone.jpg",
+                "m5": "http://media1.s-nbcnews.com/j/newscms/2015_17/992926/ss-150424-twip-08_2b40ec217049068c06aa3a3f2c59c7c3.nbcnews-fp-1200-800.jpg"
+            }
+        }
     }
 ]
