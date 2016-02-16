@@ -81,8 +81,6 @@ class findCacheViewController: UIViewController {
                         print(title.memoryTitle)
                     }
                     
-                    var counter = 0
-                    
                     let someJSON = JSON(data: data)
                     
                     for user in someJSON.arrayValue {
